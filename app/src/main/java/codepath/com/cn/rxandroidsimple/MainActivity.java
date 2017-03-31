@@ -75,4 +75,8 @@ public final class MainActivity extends AppCompatActivity {
 
         });
     }
+
+    void launchLiftcycleActivity(View view) {
+        LifecycleSimpleActivity.lauchActivity(this);
+    }
 }
